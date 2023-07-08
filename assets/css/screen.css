@@ -130,7 +130,7 @@ production stylesheet in assets/built/screen.css
 }
 
 .has-cover .site-header-content.left-aligned {
-    align-items: flex-end;
+    /* align-items: flex-end; */
     padding-bottom: max(4vmin, 32px);
 }
 
@@ -290,7 +290,7 @@ production stylesheet in assets/built/screen.css
 
 .gh-head-inner {
     display: grid;
-    column-gap: 30px;
+    column-gap: 40px;
     grid-template-columns: auto 1fr auto;
     grid-auto-flow: row dense;
     align-items: center;
