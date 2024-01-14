@@ -3,7 +3,6 @@
 {{!-- The tag above means: insert everything in this file
 into the {body} tag of the default.hbs template --}}
 
-
 {{#post}}
 {{!-- Everything inside the #post block pulls data from the post --}}
 
@@ -28,6 +27,8 @@ into the {body} tag of the default.hbs template --}}
         {{#if custom_excerpt}}
             <p class="article-excerpt">{{custom_excerpt}}</p>
         {{/if}}
+
+        {{#if access}}
 
         <div class="article-byline">
         <section class="article-byline-content">
@@ -80,6 +81,7 @@ into the {body} tag of the default.hbs template --}}
         {{/if}}
         {{/match}}
 
+        {{/if}}
     </header>
 
     <section class="gh-content gh-canvas">

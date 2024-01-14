@@ -42,7 +42,7 @@
         </section>
         {{/tag}}
 
-        {{#foreach posts}}
+        {{#foreach posts visibility="public"}}
             {{!-- The tag below includes the markup for each post - partials/post-card.hbs --}}
             {{> "post-card"}}
         {{/foreach}}
