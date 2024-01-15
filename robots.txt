@@ -1,0 +1,8 @@
+User-agent: *
+Sitemap: https://rochsociety.com/sitemap.xml
+Disallow: /ghost/
+Disallow: /p/
+Disallow: /email/
+Disallow: /r/
+Disallow: /tag/dog-friendly-travel/
+Disallow: /dog-friendly-city-guide-*

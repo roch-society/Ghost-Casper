@@ -51,6 +51,12 @@ The `zip` Gulp task packages the theme files into `dist/<theme-name>.zip`, which
 pnpm zip
 ```
 
+## Local dev setup
+
+I tried running ghost in docker and mounting the theme inside the container for awhile but never could get that to work, so your best bet is to just install ghost locally with their CLI tool (that doesn't work in powershell), and then symlink the theme into `Ghost/content/themes/Ghost-casper`
+
+
+
 # PostCSS Features Used
 
 - Autoprefixer - Don't worry about writing browser prefixes of any kind, it's all done automatically with support for the latest 2 major versions of every browser.
