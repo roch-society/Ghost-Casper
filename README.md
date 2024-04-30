@@ -56,6 +56,10 @@ pnpm zip
 I tried running ghost in docker and mounting the theme inside the container for awhile but never could get that to work, so your best bet is to just install ghost locally with their CLI tool (that doesn't work in powershell), and then symlink the theme into `Ghost/content/themes/Ghost-casper`
 
 
+## Deployment
+
+All manual right now.  Copy over the files changed with WinSCP or equivalent.  Then ssh'd in with ghostuser@20.172.133.209, run `ghost restart` to update the site to look at the changed files.
+
 
 # PostCSS Features Used
 
